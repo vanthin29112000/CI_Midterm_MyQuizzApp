@@ -1,0 +1,37 @@
+.bg-customBurger {
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+}
+
+.bg-customBurger__title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.burger__item {
+  width: 100%;
+  padding: 8px 0px;
+  height: fit-content;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+/*  */
+.btn__option {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn__option button {
+  padding: 4px 8px;
+  color: whitesmoke;
+  font-weight: 500;
+  border: 1px solid #c4842a;
+  background-color: #702e05;
+}
+
+.btn__option button:active {
+  opacity: 0.75;
+}

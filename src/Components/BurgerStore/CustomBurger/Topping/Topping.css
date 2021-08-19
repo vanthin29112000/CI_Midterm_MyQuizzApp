@@ -1,0 +1,46 @@
+.bg__grid {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 25% 35% 20% 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg__grid p {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.topping {
+  justify-self: flex-start;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+}
+
+.option button {
+  width: 40%;
+  height: 100%;
+  margin: 0 4px;
+  border: 1px solid #c4842a;
+  color: whitesmoke;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+}
+
+.option button:active {
+  opacity: 0.75;
+}
+
+.less {
+  background-color: #d39952;
+}
+
+.more {
+  background-color: #8f5e1e;
+}

@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.bg-StudentManagement {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(220, 250, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.studentManament {
+  width: 60%;
+  height: 80%;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.info-Student {
+  width: 100%;
+  height: 60%;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  font-weight: 600;
+  color: white;
+  background-color: #343a40;
+}
+
+.info-title {
+  height: 15%;
+  padding: 0px 16px;
+  text-align: left;
+  font-size: 24px;
+  border-radius: 8px 8px 0px 0px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+.list-student {
+  width: 100%;
+  height: 40%;
+}
+
+.list-student__title-grid {
+  height: 20%;
+  display: grid;
+  grid-template-columns: 7% 20% 20% 23% 10% 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-student__title-grid p {
+  margin: 0px;
+  text-align: center;
+}
+
+.list-student__item {
+  width: 100%;
+  height: 80%;
+  padding-bottom: 8px;
+  overflow-y: auto;
+}
+
+.sort {
+  width: 60%;
+  border: 1px solid #f1f3f4;
+  margin: 0 20%;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+.student-item {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 7% 20% 20% 23% 10% 20%;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #f1f3f4;
+  text-align: center;
+}
+
+.student-item p {
+  margin: 0px;
+}
+
+.student-item button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  margin: 0 4px;
+}
+
+.notify-list {
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+}

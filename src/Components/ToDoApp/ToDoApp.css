@@ -1,0 +1,49 @@
+body {
+  /* background-color: #e7eaed; */
+}
+
+.bg-image {
+  width: 35vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding-top: 108px;
+  padding-left: 32px;
+  background-image: url("./img/unnamed.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bg-ToDoApp {
+  width: 90%;
+  height: 90%;
+
+  /* background-color: white; */
+  border-radius: 16px;
+}
+
+.title {
+  font-weight: 600;
+  text-align: left;
+}
+
+button {
+  background-color: white;
+  border: 2px solid rgb(60, 60, 236);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button :hover {
+  background-color: grey;
+}
+
+input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(211, 206, 206);
+  padding: 0px 8px;
+  font-size: 18px;
+  font-weight: 500;
+}

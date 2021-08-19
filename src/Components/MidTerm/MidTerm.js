@@ -66,9 +66,8 @@ class MidTerm extends Component {
         return (
             <div className = "bg-Quiz">
                 {
-                    this.state.quizShow >= this.state.quizData.length 
-                    ? <Result correct = {this.state.correct} amountQuestion = {this.state.quizData.length}/> 
-                    :<Question item = {this.state.quizData[this.state.quizShow]} onChangeQuestion = {this.onChangeQuestion}/>
+                    this.state.quizShow >= this.state.quizData.length ? <Result correct = {this.state.correct} amountQuestion = {this.state.quizData.length}/> 
+                    :<Question item = {this.state.quizData[this.state.quizShow]} onChangeQuestion = {this.onChangeQuestion} key= {this.state.quizShow}/>
                 }
             </div>
         );
